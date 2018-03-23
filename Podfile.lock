@@ -1,0 +1,15 @@
+PODS:
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.0.0)
+
+DEPENDENCIES:
+  - Masonry
+  - MBProgressHUD (= 1.0.0)
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+
+PODFILE CHECKSUM: 2bb8d72fbc0df11ee5bb3305d854414af854b26e
+
+COCOAPODS: 1.2.1
