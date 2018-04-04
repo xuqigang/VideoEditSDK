@@ -15,6 +15,15 @@
 		7B31A73B2064E56100055D30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B31A73A2064E56100055D30 /* main.m */; };
 		7B31A7452064E56100055D30 /* VideoEditSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B31A7442064E56100055D30 /* VideoEditSDKTests.m */; };
 		7B31A7502064E56100055D30 /* VideoEditSDKUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B31A74F2064E56100055D30 /* VideoEditSDKUITests.m */; };
+		7B31A7682064F72C00055D30 /* IFFingertipEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B31A75F2064F72C00055D30 /* IFFingertipEffect.m */; };
+		7B31A7692064F72C00055D30 /* IFTextEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B31A7622064F72C00055D30 /* IFTextEffect.m */; };
+		7B31A76A2064F72C00055D30 /* IFPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B31A7642064F72C00055D30 /* IFPreview.m */; };
+		7B31A76B2064F72C00055D30 /* IFVideoEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B31A7652064F72C00055D30 /* IFVideoEditor.m */; };
+		7B31A76F2064FF8900055D30 /* VideoFingerEffectEditVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B31A76E2064FF8900055D30 /* VideoFingerEffectEditVC.m */; };
+		7B31A7752065005700055D30 /* ISVWarningView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B31A7732065005700055D30 /* ISVWarningView.m */; };
+		7B31A7782065018600055D30 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B31A7762065018600055D30 /* UIView+Toast.m */; };
+		7B31A77B2065026F00055D30 /* UIView+progress.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B31A77A2065026F00055D30 /* UIView+progress.m */; };
+		7B31A77D206504B800055D30 /* IMG_5762.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7B31A77C206504B800055D30 /* IMG_5762.mp4 */; };
 		809E257EB3EAF6701118AE2B /* libPods-VideoEditSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECBF13E90ED4C9A05B0ADA07 /* libPods-VideoEditSDK.a */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +61,25 @@
 		7B31A74B2064E56100055D30 /* VideoEditSDKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoEditSDKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B31A74F2064E56100055D30 /* VideoEditSDKUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoEditSDKUITests.m; sourceTree = "<group>"; };
 		7B31A7512064E56100055D30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B31A75E2064E93A00055D30 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7B31A75F2064F72C00055D30 /* IFFingertipEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFFingertipEffect.m; sourceTree = "<group>"; };
+		7B31A7602064F72C00055D30 /* IFTextEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFTextEffect.h; sourceTree = "<group>"; };
+		7B31A7612064F72C00055D30 /* IFVideoDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFVideoDefine.h; sourceTree = "<group>"; };
+		7B31A7622064F72C00055D30 /* IFTextEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFTextEffect.m; sourceTree = "<group>"; };
+		7B31A7632064F72C00055D30 /* IFPreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFPreview.h; sourceTree = "<group>"; };
+		7B31A7642064F72C00055D30 /* IFPreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFPreview.m; sourceTree = "<group>"; };
+		7B31A7652064F72C00055D30 /* IFVideoEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFVideoEditor.m; sourceTree = "<group>"; };
+		7B31A7662064F72C00055D30 /* IFFingertipEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFFingertipEffect.h; sourceTree = "<group>"; };
+		7B31A7672064F72C00055D30 /* IFVideoEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFVideoEditor.h; sourceTree = "<group>"; };
+		7B31A76D2064FF8900055D30 /* VideoFingerEffectEditVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoFingerEffectEditVC.h; sourceTree = "<group>"; };
+		7B31A76E2064FF8900055D30 /* VideoFingerEffectEditVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoFingerEffectEditVC.m; sourceTree = "<group>"; };
+		7B31A7732065005700055D30 /* ISVWarningView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISVWarningView.m; sourceTree = "<group>"; };
+		7B31A7742065005700055D30 /* ISVWarningView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISVWarningView.h; sourceTree = "<group>"; };
+		7B31A7762065018600055D30 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		7B31A7772065018600055D30 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		7B31A7792065026F00055D30 /* UIView+progress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+progress.h"; sourceTree = "<group>"; };
+		7B31A77A2065026F00055D30 /* UIView+progress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+progress.m"; sourceTree = "<group>"; };
+		7B31A77C206504B800055D30 /* IMG_5762.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = IMG_5762.mp4; sourceTree = "<group>"; };
 		B01AA7EF3AAA7D1BB654BB49 /* Pods-VideoEditSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoEditSDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoEditSDK/Pods-VideoEditSDK.release.xcconfig"; sourceTree = "<group>"; };
 		C13DE9CFACE5D194E4BF33C1 /* Pods-VideoEditSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoEditSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoEditSDK/Pods-VideoEditSDK.debug.xcconfig"; sourceTree = "<group>"; };
 		ECBF13E90ED4C9A05B0ADA07 /* libPods-VideoEditSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VideoEditSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,15 +137,21 @@
 			isa = PBXGroup;
 			children = (
 				7B31A75D2064E59300055D30 /* IFVideoEditerSDK */,
+				7B31A7702065003400055D30 /* Model */,
+				7B31A7722065003500055D30 /* Tools */,
+				7B31A7712065003400055D30 /* View */,
 				7B31A72B2064E56100055D30 /* AppDelegate.h */,
 				7B31A72C2064E56100055D30 /* AppDelegate.m */,
 				7B31A72E2064E56100055D30 /* ViewController.h */,
 				7B31A72F2064E56100055D30 /* ViewController.m */,
+				7B31A76C2064FF7300055D30 /* VideoEditerVC */,
 				7B31A7312064E56100055D30 /* Main.storyboard */,
 				7B31A7342064E56100055D30 /* Assets.xcassets */,
 				7B31A7362064E56100055D30 /* LaunchScreen.storyboard */,
 				7B31A7392064E56100055D30 /* Info.plist */,
 				7B31A73A2064E56100055D30 /* main.m */,
+				7B31A75E2064E93A00055D30 /* PrefixHeader.pch */,
+				7B31A77C206504B800055D30 /* IMG_5762.mp4 */,
 			);
 			path = VideoEditSDK;
 			sourceTree = "<group>";
@@ -143,8 +177,53 @@
 		7B31A75D2064E59300055D30 /* IFVideoEditerSDK */ = {
 			isa = PBXGroup;
 			children = (
+				7B31A7662064F72C00055D30 /* IFFingertipEffect.h */,
+				7B31A75F2064F72C00055D30 /* IFFingertipEffect.m */,
+				7B31A7632064F72C00055D30 /* IFPreview.h */,
+				7B31A7642064F72C00055D30 /* IFPreview.m */,
+				7B31A7602064F72C00055D30 /* IFTextEffect.h */,
+				7B31A7622064F72C00055D30 /* IFTextEffect.m */,
+				7B31A7612064F72C00055D30 /* IFVideoDefine.h */,
+				7B31A7672064F72C00055D30 /* IFVideoEditor.h */,
+				7B31A7652064F72C00055D30 /* IFVideoEditor.m */,
 			);
 			path = IFVideoEditerSDK;
+			sourceTree = "<group>";
+		};
+		7B31A76C2064FF7300055D30 /* VideoEditerVC */ = {
+			isa = PBXGroup;
+			children = (
+				7B31A76D2064FF8900055D30 /* VideoFingerEffectEditVC.h */,
+				7B31A76E2064FF8900055D30 /* VideoFingerEffectEditVC.m */,
+			);
+			path = VideoEditerVC;
+			sourceTree = "<group>";
+		};
+		7B31A7702065003400055D30 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7B31A7712065003400055D30 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7B31A7772065018600055D30 /* UIView+Toast.h */,
+				7B31A7762065018600055D30 /* UIView+Toast.m */,
+				7B31A7792065026F00055D30 /* UIView+progress.h */,
+				7B31A77A2065026F00055D30 /* UIView+progress.m */,
+				7B31A7742065005700055D30 /* ISVWarningView.h */,
+				7B31A7732065005700055D30 /* ISVWarningView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7B31A7722065003500055D30 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 		91C905891E1CA2117F3E37C3 /* Frameworks */ = {
@@ -276,6 +355,7 @@
 				7B31A7382064E56100055D30 /* LaunchScreen.storyboard in Resources */,
 				7B31A7352064E56100055D30 /* Assets.xcassets in Resources */,
 				7B31A7332064E56100055D30 /* Main.storyboard in Resources */,
+				7B31A77D206504B800055D30 /* IMG_5762.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,9 +428,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B31A7692064F72C00055D30 /* IFTextEffect.m in Sources */,
+				7B31A7752065005700055D30 /* ISVWarningView.m in Sources */,
 				7B31A7302064E56100055D30 /* ViewController.m in Sources */,
 				7B31A73B2064E56100055D30 /* main.m in Sources */,
+				7B31A76A2064F72C00055D30 /* IFPreview.m in Sources */,
+				7B31A76B2064F72C00055D30 /* IFVideoEditor.m in Sources */,
+				7B31A7682064F72C00055D30 /* IFFingertipEffect.m in Sources */,
+				7B31A77B2065026F00055D30 /* UIView+progress.m in Sources */,
 				7B31A72D2064E56100055D30 /* AppDelegate.m in Sources */,
+				7B31A7782065018600055D30 /* UIView+Toast.m in Sources */,
+				7B31A76F2064FF8900055D30 /* VideoFingerEffectEditVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,6 +603,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 943CNDRNL5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/VideoEditSDK/PrefixHeader.pch";
 				INFOPLIST_FILE = VideoEditSDK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ifengsmallvideo.app.VideoEditSDK;
@@ -529,6 +620,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 943CNDRNL5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/VideoEditSDK/PrefixHeader.pch";
 				INFOPLIST_FILE = VideoEditSDK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ifengsmallvideo.app.VideoEditSDK;
